@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Payment - Electricity Board</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+        body {
+            background: #ecf0f1;
+        }
+    </style>
+</head>
+<body>
+    <div class="topbar">
+        <div class="welcome">Welcome <span id="welcome-user"></span></div>
+        <button class="logout-btn" id="logout-btn">Logout</button>
+    </div>
+
+    <nav class="navbar">
+        <a href="home.html">Home</a>
+        <a href="home.html" class="active">Pay Bill</a>
+        <a href="complaint.html">Register Complaint</a>
+        <a href="complaint_status.html">Complaint Status</a>
+    </nav>
+
+    <div class="container">
+        <h1 class="page-title">Credit Card Payment</h1>
+
+        <div class="card-form">
+            <h3>Card Details</h3>
+            <p style="text-align:center; margin-bottom:20px; font-size:14px; color:#bdc3c7;">
+                Amount to Pay: <strong id="payable-amount" style="color:#2ecc71; font-size:18px;"></strong>
+            </p>
+
+            <form id="card-form">
+                <label>Credit Card</label>
+                <input type="text" name="card-no" maxlength="16" placeholder="Enter 16-digit card number" style="color:white;">
+                <div class="error-text" style="margin-top:-12px; margin-bottom:10px;"></div>
+
+                <label>Card Holder Name</label>
+                <input type="text" name="card-holder" placeholder="Name on card (min 10 chars)" style="color:white;">
+                <div class="error-text" style="margin-top:-12px; margin-bottom:10px;"></div>
+
+                <div class="row">
+                    <div>
+                        <label>Expiry Date</label>
+                        <input type="text" name="expiry" maxlength="5" placeholder="MM/YY" style="color:white;">
+                        <div class="error-text" style="margin-top:-12px; margin-bottom:10px;"></div>
+                    </div>
+                    <div>
+                        <label>CVV</label>
+                        <input type="password" name="cvv" maxlength="3" placeholder="3-digit CVV" style="color:white;">
+                        <div class="error-text" style="margin-top:-12px; margin-bottom:10px;"></div>
+                    </div>
+                </div>
+
+                <button type="submit" class="btn btn-success">Make Payment</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="js/app.js"></script>
+    <script>initCardPayment();</script>
+</body>
+</html>

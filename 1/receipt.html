@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Receipt - Electricity Board</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="topbar">
+        <div class="welcome">Welcome <span id="welcome-user"></span></div>
+        <button class="logout-btn" id="logout-btn">Logout</button>
+    </div>
+
+    <nav class="navbar">
+        <a href="home.html">Home</a>
+        <a href="home.html" class="active">Pay Bill</a>
+        <a href="complaint.html">Register Complaint</a>
+        <a href="complaint_status.html">Complaint Status</a>
+    </nav>
+
+    <div class="container">
+        <h1 class="page-title">Transaction Successful</h1>
+
+        <div class="card">
+            <div class="success-screen">
+                <div class="success-icon">&#10004;</div>
+                <h2>Payment Completed Successfully!</h2>
+
+                <div class="details" style="width:100%; max-width:500px; margin:20px auto;">
+                    <p><strong>Transaction ID:</strong> <span id="txn-id"></span></p>
+                    <p><strong>Date:</strong> <span id="txn-date"></span></p>
+                    <p><strong>Bill Amount:</strong> <span id="txn-bill-amount"></span></p>
+                    <p><strong>PG Charge:</strong> <span id="txn-pg-charge"></span></p>
+                    <p><strong>Total Amount Paid:</strong> <span id="txn-total" style="color:#27ae60; font-size:18px;"></span></p>
+                    <p><strong>Card Used:</strong> <span id="txn-card"></span></p>
+                </div>
+
+                <div class="download-section">
+                    <button class="btn btn-primary" id="download-btn">Download Receipt</button>
+                    <a href="home.html" class="btn btn-success" id="home-btn">Back to Home</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/app.js"></script>
+    <script>initReceipt();</script>
+</body>
+</html>

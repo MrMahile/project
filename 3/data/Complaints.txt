@@ -1,0 +1,11 @@
+ConsumerId|CustomerName|ComplaintType|Category|Address|Phone|Status
+1001|Rajesh Kumar|Billing Related|Incorrect Bill|12 MG Road Mumbai|9876543210|Active
+1002|Priya Sharma|Voltage Related|Low Voltage|45 Park Street Delhi|8765432109|Closed
+1003|Amit Singh|Frequent Disruption|Power Cut|78 Anna Salai Chennai|7654321098|Active
+1004|Sunita Devi|Street Light Related|Light Not Working|23 Brigade Road Bangalore|6543210987|Active
+1005|Mohammed Ali|Pole Related|Damaged Pole|56 Nehru Nagar Mumbai|5432109876|Closed
+1006|Riya Patel|Billing Related|Overcharge|89 Civil Road Ahmedabad|4321098765|Active
+1007|Suresh Reddy|Voltage Related|Voltage Fluctuation|34 Banjara Hills Hyderabad|3210987654|Active
+1008|Anita Joshi|Frequent Disruption|Intermittent Supply|67 Mall Road Kolkata|2109876543|Closed
+1009|Vikram Rao|Street Light Related|Dim Light|90 Anna Nagar Chennai|1098765432|Active
+1010|Deepa Nair|Pole Related|Tilted Pole|12 Marine Drive Kochi|0987654321|Active

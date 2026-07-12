@@ -1,0 +1,12 @@
+ConsumerId|CustomerName|PhoneNumber|Address|BillAmount|ModeOfPayment
+1001|Rajesh Kumar|9876543210|12 MG Road Mumbai|1250.00|Online
+1002|Priya Sharma|8765432109|45 Park Street Delhi|980.75|Cash
+1003|Amit Singh|7654321098|78 Anna Salai Chennai|870.00|Online
+1004|Sunita Devi|6543210987|23 Brigade Road Bangalore|1350.75|Card
+1005|Mohammed Ali|5432109876|56 Nehru Nagar Mumbai|1180.25|Online
+1006|Riya Patel|4321098765|89 Civil Road Ahmedabad|750.00|Cash
+1007|Suresh Reddy|3210987654|34 Banjara Hills Hyderabad|1100.50|Card
+1008|Anita Joshi|2109876543|67 Mall Road Kolkata|920.00|Online
+1009|Vikram Rao|1098765432|90 Anna Nagar Chennai|1050.25|Cash
+1010|Deepa Nair|0987654321|12 Marine Drive Kochi|1300.75|Online
+1101132490783|Test Consumer|9999999999|Test Address|2000.00|Card
